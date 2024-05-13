@@ -17,8 +17,10 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- <Compile Include="BasicExample.cs" /> -->
-    <Compile Include="BinPack.cs" />
+    <!--<Compile Include="BinPack.cs" />-->
+    <Compile Include="RectangleStacking.cs" />
     <!--<Compile Include="Knapsack.cs" />-->
     <PackageReference Include="Google.OrTools" Version="9.1.*" />
+    <PackageReference Include="MathNet.Numerics" Version="4.15.0" />
   </ItemGroup>
 </Project>
